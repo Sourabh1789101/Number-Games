@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Number Guessing Game</title>
 </head>
 <body>
 
 <h1>Number Guessing Game</h1>
 
-<p>This is a Python-based number-guessing game with three difficulty levels: Easy, Medium, and Hard. Players try to think a randomly generated number, with the match providing hints if the guess is too high or too low. The game tracks the number of attempts and saves the best scores for each difficulty level.</p>
+<p>This is a Python-based number-guessing game with three difficulty levels: Easy, Medium, and Hard. Players try to imagine a randomly generated number, with the match providing hints if the guess is too high or too low. The game tracks the number of attempts and saves the best scores for each difficulty level.</p>
 
 <h2>Features</h2>
 <ul>
@@ -34,8 +33,11 @@
 <h2>Installation</h2>
 <ol>
     <li>Clone the repository or download the code files.</li>
-    <li>Install the <code>Flask</code> library if not already installed:
-        <pre><code>pip install Flask</code></pre>
+    <li>Navigate to the project directory:
+        <pre><code>cd guess-game</code></pre>
+    </li>
+    <li>Install the required dependencies:
+        <pre><code>pip install -r requirements.txt</code></pre>
     </li>
 </ol>
 
@@ -84,7 +86,7 @@
 </ol>
 
 <h2>Author</h2>
-<p>This script was created by Sourabh kumar.</p>
+<p>This script was created by Sourabh Kumar.</p>
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
